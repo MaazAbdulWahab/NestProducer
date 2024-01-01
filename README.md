@@ -45,6 +45,46 @@ $ npm run start:dev
 $ npm run start:prod
 ```
 
+## Running the app with pm2
+
+```bash
+# development start
+$ npm run pm2:start
+
+# development stop
+$ npm run pm2:stop
+
+# development logs
+$ npm run pm2:logs
+
+# development monitoring
+$ npm run pm2:monit
+
+# development restart
+$ npm run pm2:restart
+
+
+
+
+# production start
+$ npm run pm2:start:prod
+
+# production stop
+$ npm run pm2:stop:prod
+
+# prduction logs
+$ npm run pm2:logs:prod
+
+# production monitoring
+$ npm run pm2:monit:prod
+
+# production restart
+$ npm run pm2:restart:prod
+
+
+
+```
+
 ## Test
 
 ```bash
